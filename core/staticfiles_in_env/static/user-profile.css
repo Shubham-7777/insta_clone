@@ -1,0 +1,43 @@
+div.details {
+    /*height: 1000px;
+    width: 1000px;
+    */
+    height: 80%;
+    width: 1000px;
+    background: pink;
+
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 150px;
+
+    /*
+    margin-top: -10px;
+    margin-left: px; 
+    */
+}
+div.profile-pic {
+    
+    position : absolute;
+    right : 10px;
+    top : 10px;
+}
+
+
+ul {
+    margin-inline-end : 200px;
+}
+
+div.welcome_tag {
+    position : absolute;
+    text-align : center;
+    left : 40%;
+    background-color: pink;
+
+}
+
+
+
+/*
+margin-block-end : 200px;
+ */

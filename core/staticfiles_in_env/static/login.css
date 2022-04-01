@@ -1,0 +1,9 @@
+div.form {
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    width : 800px;
+    left : 250px;
+    background-color: pink;
+}

@@ -1,0 +1,42 @@
+{% extends "users/base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href=" {% static 'static/login.css' %}">
+    </head>
+    {% block content %}    
+        <body>
+            <h2>Log In</h2>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Log In</button>
+            </form>
+            <script src="" async defer></script>
+        </body>
+    {% endblock content %}
+</html>
+
+
+
+        <!--
+            <div class="form">
+                <form method="post" action= "{% url 'login' %}">
+                    {% csrf_token %}
+                    <label for="Username">UserName:</label>
+                    <input type="text" id="username" name="username"><br><br>
+                    <label for="Password">Password</label>
+                    <input type="password" id="Password" name="passsword"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        -->
+
+
+
